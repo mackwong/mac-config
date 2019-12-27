@@ -1,0 +1,19 @@
+[user]
+    name = Wang Jun
+    email = mail@mack.wang
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    pl = pull --rebase
+    ps = push
+    mg = merge --no-ff
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+    autocrlf = input
+    ignorecase = false
+    ui = auto
+[push]
+    default = upstream
+    force = true
